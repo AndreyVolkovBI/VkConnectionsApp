@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <include layout="@layout/layout_my_profile" />
+
+    <View
+        android:id="@+id/firstView"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/parentLayout"
+        android:background="@drawable/rounded_blue_line" />
+
+    <RelativeLayout
+        android:id="@+id/linkTextView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/firstView"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_link_textview">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/simple_search_insert_link"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/simpleSearchLink"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/linkTextView"
+        android:layout_marginTop="-3dp"
+        android:background="@drawable/rounded_link_edittext"
+        android:hint="@string/simple_search_insert_link_hint"
+        android:padding="10dp"
+        android:textCursorDrawable="@null"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/simpleSearchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_search_button"
+        android:stateListAnimator="@null"
+        android:text="Поиск"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+
+</RelativeLayout>

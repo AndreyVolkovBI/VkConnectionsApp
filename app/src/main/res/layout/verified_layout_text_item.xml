@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_link_edittext">
+
+    <TextView
+        android:id="@+id/verifiedSearchChosenText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="-3dp"
+        android:background="@drawable/rounded_link_edittext"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textCursorDrawable="@null" />
+
+</RelativeLayout>

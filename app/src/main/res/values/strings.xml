@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Связи ВК</string>
+
+    <string name="main_title">Vk Connections</string>
+    <string name="main_subtitle1">Поиск кратчайшего расстояния</string>
+    <string name="main_subtitle2">между пользователями ВКонтакте</string>
+
+    <!--Layout my profile-->
+    <string name="layout_my_profile_download">Загрузка...</string>
+
+    <!--Simple Search Fragment-->
+    <string name="simple_search_main_title1">Поиск между твоим профилем</string>
+    <string name="simple_search_main_title2">ВКонтакте и другим пользователем</string>
+    <string name="simple_search_insert_link">Искомый пользователь ВКонтакте</string>
+    <string name="simple_search_insert_link_hint">Ссылка/id/nickname</string>
+
+    <!--Verified Search Fragment-->
+    <string name="verified_search_main_title1">Поиск расстояния до</string>
+    <string name="verified_search_main_title2">верифицированных пользователей</string>
+    <string name="verified_search_choose_category">Категория</string>
+    <string name="verified_search_choose_category_hint">Выберите категорию</string>
+    <string name="verified_search_choose_person">Пользователь</string>
+    <string name="verified_search_choose_person_hint">Выберите пользователя</string>
+
+    <!--Between Search Fragment-->
+    <string name="between_search_main_title1">Поиск между двумя</string>
+    <string name="between_search_main_title2">пользователями ВКонтакте</string>
+    <string name="between_search_from">Первый пользователь ВКонтакте</string>
+    <string name="between_search_to">Второй пользователь ВКонтакте</string>
+
+    <!--Description-->
+    <string name="desc_application_name">Vk Connections</string>
+    <string name="desc_application_version">Version 1.0</string>
+    <string name="desc_dev_name">Made by Andrey Volkov</string>
+    <string name="desc_launch_year">© September 2018</string>
+
+    <integer name="com_vk_sdk_AppId">6679827</integer>
+
+</resources>

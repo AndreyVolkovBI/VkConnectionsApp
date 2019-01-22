@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relLayoutFrom"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/firstView"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_link_textview">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/between_search_from"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/betweenLinkFrom"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_above="@+id/firstView"
+            android:layout_below="@+id/linkTextView"
+            android:layout_marginTop="-3dp"
+            android:background="@drawable/rounded_link_edittext"
+            android:hint="@string/simple_search_insert_link_hint"
+            android:padding="10dp"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/linkTextView"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/firstView"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_link_textview">
+
+            <TextView
+                android:id="@+id/tempTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/between_search_to"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/betweenLinkTo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/linkTextView"
+            android:layout_marginTop="-3dp"
+            android:background="@drawable/rounded_link_edittext"
+            android:hint="@string/simple_search_insert_link_hint"
+            android:padding="10dp"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/betweenSearchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_search_button"
+        android:stateListAnimator="@null"
+        android:text="Поиск"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+
+</RelativeLayout>
